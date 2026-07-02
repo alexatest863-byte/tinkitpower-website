@@ -1,22 +1,33 @@
-TINKITPOWER.COM Website - Changed Final Package
+TINKITPOWER.COM clean one-screen version
 
-This package uses the approved minimalist website mockup as the desktop landing-page visual, with clickable areas over the two visible buttons. It also includes a mobile-friendly stacked version for smaller screens.
+This package fixes the messy/overlapping layout.
 
-Deploy through GitHub + Vercel:
-1. Extract this ZIP.
-2. Upload the contents directly to the root of your GitHub repository, not inside another folder.
-3. Required root files/folders:
-   - index.html
-   - styles.css
-   - script.js
-   - assets/
-   - downloads/
-   - README_DEPLOY.txt
-4. Commit changes to the main branch.
-5. Vercel will automatically redeploy.
+Changes:
+- Clean two-column hero layout.
+- Smaller controlled MODEL3 size.
+- Dashboard and phone preview no longer overlap the stats strip.
+- Pure white background.
+- Desktop designed for one screen with no scrolling.
+- No static/blurred full-page screenshot.
+- Only two buttons:
+  1. Download Desktop App
+  2. APK Download — Coming Soon on Google Play
+
+Upload:
+Replace the existing root files in GitHub with:
+- index.html
+- styles.css
+- script.js
+- assets/
+- downloads/
+- README_DEPLOY.txt
 
 Desktop installer path:
 downloads/TINKITPowerStationMonitor-Desktop.exe
 
-APK button:
-The APK / Google Play button is intentionally disabled until the Android release is ready.
+Latest revision:
+- Reduced/shortened the MODEL3 platform shadow so it no longer looks like a long white band.
+- Kept hover effects:
+  * MODEL3 product slightly zooms and brightens.
+  * Download Desktop App button slightly zooms and brightens.
+  * APK Coming Soon button slightly zooms and brightens while remaining disabled.

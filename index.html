@@ -4,78 +4,108 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TINKITPOWER.COM — Smart Powerstation Monitoring</title>
-  <meta name="description" content="Official download page for TINKIT Powerstation MODEL3 monitoring desktop app. APK download coming soon on Google Play." />
-  <meta property="og:title" content="TINKITPOWER.COM — Smart Powerstation Monitoring" />
-  <meta property="og:description" content="Monitor battery level, voltage, current, temperature, runtime, and device status from desktop and mobile." />
-  <meta property="og:type" content="website" />
+  <meta name="description" content="TINKIT Powerstation MODEL3 monitoring download page. Desktop app available; APK coming soon on Google Play." />
   <meta name="theme-color" content="#ffffff" />
   <link rel="icon" href="assets/tinkit-it-solutions-logo.png" type="image/png" />
-  <link rel="preload" as="image" href="assets/tinkitpower-hero-approved.png" />
+  <link rel="preload" as="image" href="assets/model3-powerstation.png" />
+  <link rel="preload" as="image" href="assets/tinkit-it-solutions-logo.png" />
   <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <main class="site" aria-label="TINKITPOWER.COM landing page">
-    <h1 class="sr-only">TINKITPOWER.COM Smart Powerstation Monitoring</h1>
-    <p class="sr-only">Monitor battery level, voltage, current, temperature, runtime, and device status for TINKIT Powerstation MODEL3.</p>
-
-    <section class="art-hero" aria-label="TINKITPOWER.COM Smart Powerstation Monitoring hero">
-      <img
-        src="assets/tinkitpower-hero-approved.png"
-        alt="TINKITPOWER.COM minimalist landing page for Smart Powerstation Monitoring showing the MODEL3 powerstation, desktop monitor preview, mobile preview, battery stats, Download Desktop App button, and APK Download Coming Soon on Google Play button."
-        class="hero-art"
-        draggable="false"
-      />
-
-      <a
-        class="hero-hotspot desktop-download"
-        href="downloads/TINKITPowerStationMonitor-Desktop.exe"
-        download
-        aria-label="Download Desktop App"
-        title="Download Desktop App"
-      ></a>
-
-      <button
-        class="hero-hotspot apk-coming-soon"
-        type="button"
-        aria-label="APK Download — Coming Soon on Google Play"
-        title="APK Download — Coming Soon on Google Play"
-        disabled
-      ></button>
-    </section>
-
-    <section class="mobile-landing" aria-label="TINKITPOWER.COM mobile landing page">
-      <header class="mobile-header">
+  <main class="page">
+    <header class="topbar" aria-label="TINKITPOWER.COM header">
+      <div class="brand">
         <img src="assets/tinkit-it-solutions-logo.png" alt="TINKIT IT SOLUTIONS" />
+        <span aria-hidden="true"></span>
         <strong>TINKITPOWER.COM</strong>
-      </header>
-
-      <img class="mobile-product" src="assets/model3-powerstation.png" alt="TINKIT Powerstation MODEL3" />
-
-      <div class="mobile-copy">
-        <p>MODEL3 POWERSTATION MONITOR</p>
-        <h2>Smart Powerstation Monitoring</h2>
-        <span>Monitor battery level, voltage, current, temperature, runtime, and device status from desktop and mobile.</span>
       </div>
+    </header>
 
-      <article class="mobile-card">
-        <h3>Powerstation Monitor</h3>
-        <span class="mobile-pill">JKBMS Connected</span>
-        <div class="mobile-gauge"><strong>84<span>%</span></strong><small>BATTERY LEVEL</small></div>
-        <b class="mobile-status">~ Discharging</b>
-        <div class="mobile-grid">
-          <div><small>Battery Voltage</small><strong>53.3 V</strong></div>
-          <div><small>Battery Current</small><strong>-10.31 A</strong></div>
-          <div><small>Power Used</small><strong>549 W</strong></div>
-          <div><small>Runtime</small><strong>26h 53m</strong></div>
+    <section class="hero" aria-label="Smart Powerstation Monitoring">
+      <aside class="product-panel">
+        <div class="product-glow" aria-hidden="true"></div>
+        <img src="assets/model3-powerstation.png" alt="TINKIT Powerstation MODEL3 with JKBMS screen and output panel" class="product" />
+        <div class="platform" aria-hidden="true"></div>
+      </aside>
+
+      <section class="content-panel">
+        <div class="copy">
+          <p>MODEL3 POWERSTATION MONITOR</p>
+          <h1>Smart Powerstation<br />Monitoring</h1>
+          <h2>Monitor battery level, voltage, current, temperature, runtime, and device status from desktop and mobile.</h2>
         </div>
-      </article>
 
-      <div class="mobile-actions">
-        <a href="downloads/TINKITPowerStationMonitor-Desktop.exe" download>Download Desktop App</a>
-        <button type="button" disabled>APK Download — Coming Soon on Google Play</button>
-      </div>
+        <div class="previews">
+          <article class="dashboard">
+            <div class="dash-title">
+              <img src="assets/tinkit-it-solutions-logo.png" alt="" aria-hidden="true" />
+              <b>Powerstation Monitor</b>
+              <small>JKBMS Connected</small>
+            </div>
+
+            <div class="dash-main">
+              <div class="gauge">
+                <div>
+                  <strong>84<span>%</span></strong>
+                  <em>BATTERY LEVEL</em>
+                </div>
+              </div>
+
+              <div class="status">
+                <small>STATUS</small>
+                <b>~ Discharging</b>
+              </div>
+            </div>
+
+            <div class="metrics">
+              <div><i>V</i><span><small>Battery Voltage</small><b>53.3 V</b></span></div>
+              <div><i>A</i><span><small>Battery Current</small><b>-10.31 A</b></span></div>
+              <div><i>W</i><span><small>Battery Power Used</small><b>549 W</b></span></div>
+              <div><i>T</i><span><small>Temperature</small><b>33 °C</b></span></div>
+              <div><i>C</i><span><small>Cell Delta</small><b>0.006 V</b></span></div>
+              <div><i>R</i><span><small>Runtime Estimate</small><b>26h 53m</b></span></div>
+            </div>
+          </article>
+
+          <article class="phone">
+            <div class="notch" aria-hidden="true"></div>
+            <img src="assets/tinkit-it-solutions-logo.png" alt="" aria-hidden="true" />
+            <b>Powerstation Monitor</b>
+            <small>JKBMS Connected</small>
+            <div class="phone-gauge">
+              <strong>84<span>%</span></strong>
+              <em>BATTERY LEVEL</em>
+            </div>
+            <label>STATUS</label>
+            <u>~ Discharging</u>
+            <p><span>Voltage</span><b>53.3 V</b></p>
+            <p><span>Current</span><b>-10.31 A</b></p>
+          </article>
+        </div>
+      </section>
     </section>
+
+    <section class="stats" aria-label="Live monitoring summary">
+      <div><i>▣</i><span><small>BATTERY LEVEL</small><b>84%</b><em>Discharging</em></span></div>
+      <div><i>V</i><span><small>VOLTAGE</small><b>53.3 V</b><em>Nominal</em></span></div>
+      <div><i>A</i><span><small>CURRENT</small><b>-10.31 A</b><em>Output</em></span></div>
+      <div><i>▤</i><span><small>RUNTIME ESTIMATE</small><b>26h 53m</b><em>Remaining</em></span></div>
+    </section>
+
+    <section class="actions" aria-label="Downloads">
+      <a href="downloads/TINKITPowerStationMonitor-Desktop.exe" download class="btn primary">
+        <span class="desktop-icon" aria-hidden="true"></span>
+        Download Desktop App
+      </a>
+      <button class="btn secondary" type="button" disabled aria-disabled="true">
+        <span class="play-icon" aria-hidden="true"></span>
+        <span>APK Download —<small>Coming Soon on Google Play</small></span>
+      </button>
+    </section>
+
+    <p class="note">Desktop-first monitoring, mobile companion coming soon.</p>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
