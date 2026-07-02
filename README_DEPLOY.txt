@@ -1,26 +1,22 @@
-TINKITPOWER.COM Website Final
+TINKITPOWER.COM Website - Changed Final Package
 
-How to deploy on GoDaddy shared hosting:
-1. Extract tinkitpower_site_final.zip.
-2. Upload all files and folders into your domain's public_html or website root.
-3. Put the real desktop installer at:
-   downloads/TINKITPowerStationMonitor-Desktop.exe
-4. The APK button is intentionally disabled until Google Play release.
-5. Test locally by opening index.html, then test again after upload on TINKITPOWER.COM.
+This package uses the approved minimalist website mockup as the desktop landing-page visual, with clickable areas over the two visible buttons. It also includes a mobile-friendly stacked version for smaller screens.
 
-Included:
-- index.html
-- styles.css
-- script.js
-- assets/model3-powerstation.png
-- assets/favicon.svg
-- downloads/README.txt
+Deploy through GitHub + Vercel:
+1. Extract this ZIP.
+2. Upload the contents directly to the root of your GitHub repository, not inside another folder.
+3. Required root files/folders:
+   - index.html
+   - styles.css
+   - script.js
+   - assets/
+   - downloads/
+   - README_DEPLOY.txt
+4. Commit changes to the main branch.
+5. Vercel will automatically redeploy.
 
-Acceptance checklist:
-- Pure white background.
-- Real responsive website layout.
-- No screenshot-only hero.
-- No large left/right gutters.
-- Only two buttons.
-- Desktop app button points to the installer path.
-- APK button shows Coming Soon on Google Play and is disabled.
+Desktop installer path:
+downloads/TINKITPowerStationMonitor-Desktop.exe
+
+APK button:
+The APK / Google Play button is intentionally disabled until the Android release is ready.

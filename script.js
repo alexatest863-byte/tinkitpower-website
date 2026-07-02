@@ -1,8 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const apkButton = document.querySelector(".btn-light");
-  if (apkButton) {
-    apkButton.addEventListener("click", (event) => {
-      event.preventDefault();
-    });
-  }
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.apk-coming-soon, .mobile-actions button').forEach((button) => {
+    button.addEventListener('click', (event) => event.preventDefault());
+  });
 });

@@ -1,4 +1,4 @@
-Place the real Windows installer here using this exact filename:
+Place the real Windows installer in this folder using this exact filename:
 
 TINKITPowerStationMonitor-Desktop.exe
 
